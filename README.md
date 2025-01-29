@@ -16,7 +16,11 @@ This set of scripts helps diagnose and resolve Airtable API connection issues.
 
 #### Usage:
 
-Make sure table is named Content Pipeline and shared with your account, or change within the script to your table name.
+Make sure table is named 'Content Pipeline' and shared with your account, or change within the script to your table name.
+
+```bash
+npm install axios dotenv
+```
 
 ```bash
 npm run airtable-debug
