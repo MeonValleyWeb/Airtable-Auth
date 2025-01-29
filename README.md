@@ -25,10 +25,15 @@ npm install axios dotenv
 Use in this order:
 
 **FILE** `airtable-debug.js`
+
 **FILE** `airtable-free-account-debug.js`
+
 **FILE** `airtable-auth-debug.js`
+
 **FILE** `airtable-comprehensive-debug.js`
+
 **FILE** `airtable-comprehensive-auth-debug.js`
+
 
 ```bash
 npm run airtable-debug
