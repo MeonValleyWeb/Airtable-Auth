@@ -6,7 +6,7 @@ This set of scripts helps diagnose and resolve Airtable API connection issues.
 ## 🛠 Debugging Scripts
 
 ### 1. Environment Variable Checker
-**File:** `scripts/airtable-comprehensive-auth-debug.js`
+**File:** `scripts/airtable-debug.js`
 
 #### Features:
 - Validates Airtable Personal Access Token
@@ -21,6 +21,14 @@ Make sure table is named 'Content Pipeline' and shared with your account, or cha
 ```bash
 npm install axios dotenv
 ```
+
+Use in this order:
+
+**FILE** `airtable-debug.js`
+**FILE** `airtable-free-account-debug.js`
+**FILE** `airtable-auth-debug.js`
+**FILE** `airtable-comprehensive-debug.js`
+**FILE** `airtable-comprehensive-auth-debug.js`
 
 ```bash
 npm run airtable-debug
