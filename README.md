@@ -6,7 +6,7 @@ This set of scripts helps diagnose and resolve Airtable API connection issues.
 ## 🛠 Debugging Scripts
 
 ### 1. Environment Variable Checker
-**File:** `scripts/airtable-debug.js`
+**File:** `airtable-debug.js`
 
 #### Features:
 - Validates Airtable Personal Access Token
