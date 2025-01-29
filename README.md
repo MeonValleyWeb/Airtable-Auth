@@ -15,6 +15,9 @@ This set of scripts helps diagnose and resolve Airtable API connection issues.
 - Identifies potential connection issues
 
 #### Usage:
+
+Make sure table is named Content Pipeline and shared with your account, or change within the script to your table name.
+
 ```bash
 npm run airtable-debug
 ```
